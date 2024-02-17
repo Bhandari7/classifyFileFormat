@@ -1,0 +1,7 @@
+# Distribution / packaging
+unStructuredData
+
+
+__pycache__
+
+app.log
