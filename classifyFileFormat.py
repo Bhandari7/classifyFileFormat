@@ -42,7 +42,7 @@ def is_duplicate(file):
 def get_date_folder(file_path):
     last_modified = os.path.getmtime(file_path)
 #    print(datetime.fromtimestamp(last_modified))
-    date = datetime.fromtimestamp(last_modified).strftime('%Y-%m-%d')
+    date = datetime.fromtimestamp(last_modified).strftime('%Y-%m')   # if want in day level use strftime('%Y-%m-%d')
     return date
 
 
